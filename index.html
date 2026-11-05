@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>JavaScript Mini Demo</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Serif:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- page -->
+    <div class="demo">
+      <!-- intro -->
+      <header>
+        <div class="content-wrap">
+          <h1>JavaScript Mini Demo</h1>
+
+          <p><strong>COMP 484</strong></p>
+          <p><strong>Tim K.</strong></p>
+
+          <h2>Homework 9 Requirements</h2>
+
+          <p>
+            This assignment demonstrates JavaScript running in the browser using
+            an external script file.
+          </p>
+
+          <ul>
+            <li>Display and format the current date.</li>
+            <li>Convert and validate values using the Number object.</li>
+            <li>Perform arithmetic and format number results.</li>
+            <li>Use conditional statements to display different messages.</li>
+            <li>Display JavaScript results directly on the webpage.</li>
+          </ul>
+        </div>
+      </header>
+
+      <!-- main -->
+      <main>
+        <!-- date section -->
+        <section class="date-section">
+          <div class="content-wrap">
+            <h2>Date Display</h2>
+
+            <!-- date output -->
+            <p id="dateOutput">Date will appear here.</p>
+          </div>
+        </section>
+
+        <!-- number section -->
+        <section class="number-section">
+          <div class="content-wrap">
+            <h2>Number Conversion Tests</h2>
+
+            <!-- number tests -->
+            <div class="number-tests">
+              <!-- column headings -->
+              <div class="test-header">
+                <div>Original Value</div>
+                <div>Converted</div>
+                <div>isNaN</div>
+                <div>isInteger</div>
+              </div>
+
+              <!-- javascript output -->
+              <div id="numberConversionOutput">Results will appear here.</div>
+            </div>
+
+            <!-- validation results -->
+            <div class="validation-section">
+              <h3>Validation Results</h3>
+
+              <div class="validation-grid">
+                <div class="validation-result">
+                  <p id="validationOne"></p>
+                </div>
+
+                <div class="validation-result">
+                  <p id="validationTwo"></p>
+                </div>
+
+                <div class="validation-result">
+                  <p id="validationThree"></p>
+                </div>
+
+                <div class="validation-result">
+                  <p id="validationFour"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- math section -->
+        <section class="math-section">
+          <div class="content-wrap">
+            <h2>Math and Number Formatting</h2>
+
+            <!-- math output -->
+            <div id="mathOutput">Results will appear here.</div>
+          </div>
+        </section>
+      </main>
+
+      <!-- footer -->
+      <footer>
+        <div class="content-wrap">
+          <p>Copyright 2026 by Tim K.</p>
+
+          <!-- github link -->
+          <p>
+            <a
+              class="github-link"
+              href="https://github.com/tklassy/Comp484HW9"
+              target="_blank"
+            >
+              HW9 GitHub Repo
+            </a>
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>

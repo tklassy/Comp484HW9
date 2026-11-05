@@ -1,0 +1,184 @@
+/* box sizing */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* page */
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #3f3a35;
+  background: #f1e7d3;
+}
+
+/* content */
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+/* headings */
+h1,
+h2,
+h3 {
+  font-family: "IBM Plex Serif", serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+/* text */
+p {
+  line-height: 1.6;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* main container */
+.demo {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 25px;
+  background: #f7f5f0;
+  border-radius: 20px;
+}
+
+/* sections */
+header,
+.date-section,
+.number-section,
+.math-section,
+footer {
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+/* intro */
+header {
+  background: #b8c4a9;
+}
+
+/* date section */
+.date-section {
+  background: #c9ddf2;
+}
+
+#dateOutput {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+/* number section */
+.number-section {
+  background: #c9a89a;
+}
+
+/* number tests */
+.number-tests {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* column headings */
+.test-header {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
+  padding: 12px;
+  background: #f7f5f0;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* number rows */
+.test-row {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
+  margin-top: 2px;
+  padding: 12px;
+  background: rgba(247, 245, 240, 0.65);
+  text-align: center;
+}
+
+/* number cells */
+.test-header div,
+.test-row div {
+  padding: 5px;
+}
+
+/* validation section */
+.validation-section {
+  margin-top: 25px;
+}
+
+/* validation heading */
+.validation-section h3 {
+  margin-bottom: 12px;
+}
+
+/* validation grid */
+.validation-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+/* validation results */
+.validation-result {
+  padding: 15px;
+  background: rgba(247, 245, 240, 0.65);
+  border-radius: 10px;
+}
+
+/* validation text */
+.validation-result p {
+  margin: 0;
+}
+
+/* math section */
+.math-section {
+  background: #d9cbb8;
+}
+
+/* math results */
+.math-result {
+  margin-bottom: 10px;
+  padding: 12px;
+  background: rgba(247, 245, 240, 0.65);
+  border-radius: 10px;
+}
+
+/* footer */
+footer {
+  margin-bottom: 0;
+  background: #b8c4a9;
+  text-align: center;
+}
+
+/* github link */
+.github-link {
+  color: #3f3a35;
+  font-weight: 500;
+}
+
+.github-link:hover {
+  text-decoration: none;
+}
